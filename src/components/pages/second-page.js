@@ -1,7 +1,10 @@
 import React from 'react';
+import CounterSecondPage from "../counter-second-page";
 
 const SecondPage = () => {
-    return <div>Second Page</div>
+    return (<div>
+        <CounterSecondPage/>
+    </div>);
 };
 
 export default SecondPage;

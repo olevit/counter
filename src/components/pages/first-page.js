@@ -1,7 +1,11 @@
 import React from 'react';
+import Counter from "../counter";
 
 const FirstPage = () => {
-    return <div>First Page</div>
+    return (
+        <div>
+            <Counter/>
+        </div>);
 };
 
 export default FirstPage
