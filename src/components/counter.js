@@ -11,7 +11,6 @@ const Counter = ({ counter, inc, dec }) => {
                 onClick={dec}
                 className="btn btn-outline-dark btn-lg">-</button>
             <button
-                    onClick={counter}
                     className="btn btn-primary btn-lg">{counter}</button>
             <button
                 onClick={inc}

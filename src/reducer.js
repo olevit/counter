@@ -1,11 +1,20 @@
 const reducer = (state = 0, action) => {
-
     switch (action.type) {
         case 'INC':
-            return state + 1;
+            if ( state === 5){
+                return state;
+            }
+            else {
+                return state + 1;
+            }
 
         case 'DEC':
-            return state - 1;
+            if (state === 0) {
+                return state
+            }
+            else {
+                return state - 1;
+            }
 
         default:
             return state;
